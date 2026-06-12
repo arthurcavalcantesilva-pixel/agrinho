@@ -1,1 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte e Sustentável</title>
 
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background-color: #f4f8f2;
+        color: #333;
+    }
+
+    header {
+        background: linear-gradient(135deg, #2e7d32, #66bb6a);
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        background-color: #1b5e20;
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #c8e6c9;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 50px 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .card {
+        background: white;
+        width: 320px;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card h3 {
+        color: #2e7d32;
+        margin-bottom: 10px;
+    }
+
+    .banner {
+        margin-top: 50px;
+        background: #e8f5e9;
+        padding: 40px;
+        border-left: 8px solid #2e7d32;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .banner h2 {
+        color: #1b5e20;
+        margin-bottom: 15px;
+    }
+
+    footer {
+        background: #1b5e20;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    @media(max-width: 768px){
+        header h1{
+            font-size: 2rem;
+        }
+
+        .cards{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1> Agro Forte e Sustentável</h1>
+    <p>O agro forte e sustentável une produtividade, inovação e responsabilidade ambiental para produzir alimentos de qualidade sem comprometer os recursos naturais. Com o uso de tecnologias modernas e práticas sustentáveis, o setor agropecuário fortalece a economia, gera empregos e contribui para a preservação do solo, da água e da biodiversidade. Dessa forma, o agronegócio garante desenvolvimento no presente e um futuro mais equilibrado para as próximas gerações.</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Sustentabilidade</a>
+    <a href="#">Tecnologia</a>
+    <a href="#">Contato</a>
+</nav>
+
+<section class="container">
+
+    <div class="cards">
+
+        <div class="card">
+            <h3> Produção Responsável</h3>
+            <p>
+               A produção responsável é um dos pilares do agronegócio moderno, pois busca equilibrar o aumento da produtividade com a preservação dos recursos naturais. Essa prática envolve o uso consciente da água, do solo e da energia, garantindo que a produção agrícola atenda às necessidades atuais sem comprometer as gerações futuras.
+
+Por meio da adoção de tecnologias inovadoras, do manejo sustentável e da redução de desperdícios, os produtores conseguem obter melhores resultados econômicos e ambientais. Além disso, a produção responsável contribui para a conservação da biodiversidade, a proteção dos ecossistemas e a melhoria da qualidade dos alimentos produzidos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3> Tecnologia no Campo</h3>
+            <p>
+              A tecnologia no campo tem transformado o agronegócio, tornando a produção mais eficiente, sustentável e produtiva. Com o uso de máquinas modernas, drones, sensores e sistemas de monitoramento, os produtores conseguem acompanhar as lavouras com mais precisão, reduzir desperdícios e otimizar o uso de recursos como água e fertilizantes. Essas inovações aumentam a produtividade, diminuem os impactos ambientais e fortalecem o desenvolvimento do setor agrícola  
+            </p>
+        </div>
+
+        <div class="card">
+            <h3> Preservação Ambiental</h3>
+            <p>
+              A preservação ambiental é essencial para manter o equilíbrio da natureza e garantir recursos para as futuras gerações. No agronegócio, ela envolve o cuidado com o solo, a água, as florestas e a biodiversidade, promovendo uma produção mais sustentável. Ao adotar práticas de conservação, é possível proteger o meio ambiente, reduzir impactos ambientais e contribuir para um futuro mais saudável e equilibrado.  
+            </p>
+        </div>
+
+    </div>
+
+    <div class="banner">
+        <h2>O Futuro do Agro é Sustentável</h2>
+        <p>
+            O agronegócio moderno alia produtividade, tecnologia e respeito
+            ao meio ambiente, fortalecendo a economia e preservando os recursos naturais.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
